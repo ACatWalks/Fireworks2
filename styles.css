@@ -1,0 +1,26 @@
+body{
+  background-image: url("http://lifestylepubs.wordpress.s3-us-west-2.amazonaws.com/app/uploads/prod/2017/06/starry-night-5-1200x700.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-y: hidden;
+  margin: 0px;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5%;
+  grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+}
+button{
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: MidnightBlue;
+  color: white;
+  border: 1px solid black;
+  border-radius: 25px;
+}
+.btn-container{
+  grid-column-start: 10;
+  grid-column-end: span col-12 start;
+  grid-row-start: 10;
+}
